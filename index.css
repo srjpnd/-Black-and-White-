@@ -5,6 +5,8 @@
 
 body{
     background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0.9)),url(rainbow-village.jpg);
+    background-size: cover;
+    position: relative;
 }
 .container{
     height: 100vh;
