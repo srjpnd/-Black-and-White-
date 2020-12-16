@@ -4,5 +4,27 @@
 }
 
 body{
-    background-color: #121212;
+    background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0.9)),url(rainbow-village.jpg);
+}
+.container{
+    height: 100vh;
+ display: flex;
+ justify-content: space-around;
+    align-items: center;
+    margin:auto;
+}
+
+img{
+    width: 41%;
+    transition: 800ms;
+     filter: grayscale(100%);
+}
+img:hover{
+    display: flex;
+    
+  
+    
+    width: 47%;
+    filter: grayscale(0%);
+    
 }
