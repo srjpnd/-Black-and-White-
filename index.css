@@ -14,19 +14,20 @@ body{
  justify-content: space-around;
     align-items: center;
     margin:auto;
+    
 }
 
 img{
     width: 41%;
     transition: 800ms;
      filter: grayscale(100%);
+    cursor:pointer;
 }
 img:hover{
     display: flex;
     
-  
-    
     width: 47%;
     filter: grayscale(0%);
+   
     
 }
